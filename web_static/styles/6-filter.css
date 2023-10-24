@@ -73,8 +73,8 @@ section.filters button {
     z-index: 1;
     display: none;
     position: relative;
-    /* flex-direction: column;
-} */
+    /* flex-direction: column;*/
+} 
 .popover h2 {
     font-size: 16px;
 }
