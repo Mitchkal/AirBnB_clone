@@ -33,7 +33,7 @@ section.filters button {
 .locations, .amenities {
     height: 100%;
     width: 75%;
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     float: left;
@@ -65,13 +65,14 @@ section.filters button {
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    /* margin: 0;
-    padding: 0; */
-    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
      /* list-style: none;  */
-    /* position: absolute; */
-    z-index: 1;
+     position: left;
+    z-index: 10;
     display: none;
+    text-align: center;
     position: relative;
     /* flex-direction: column;*/
 } 
@@ -79,7 +80,7 @@ section.filters button {
     font-size: 16px;
 }
 .locations:hover .popover, .amenities:hover .popover {
-    display: block;
+    display: inline-block;
     /*position: absolute;*/
 }
 li {
